@@ -1,1 +1,0 @@
-class Dolphins : Animal()

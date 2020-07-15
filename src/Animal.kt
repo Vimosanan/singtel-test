@@ -1,13 +1,21 @@
-open class Animal {
+open class Animal(
+    val isWalk: Boolean = false,
+    val isSwim: Boolean = false,
+    val isSing: Boolean = false,
+    val isFly: Boolean = false
+) {
     open fun walk() {
-        println("I am walking");
+        if (isWalk)
+            println("I am walking");
     }
 
     open fun swim() {
-        println("I am swimming")
+        if (isSwim)
+            println("I am swimming")
     }
 
     open fun sing() {
-        println("I am singing")
+        if (isSing)
+            println("I am singing")
     }
 }
