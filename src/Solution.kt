@@ -4,5 +4,8 @@ class Solution {
         bird.walk()
         bird.fly()
         bird.sing()
+
+        val dolphins = Dolphins()
+        dolphins.swim()
     }
 }

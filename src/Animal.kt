@@ -1,5 +1,5 @@
 open class Animal {
-    fun walk() {
+    open fun walk() {
         println("I am walking");
     }
 
